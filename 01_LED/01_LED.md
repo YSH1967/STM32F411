@@ -1,39 +1,39 @@
 
 # 01_LED
 
-![Untitled](01_LED/Untitled.png)
+![Untitled](images/Untitled.png)
 
 - **첫번째로 RCC (기준 클럭)을 세팅한다**
 
-![image.png](01_LED/image.png)
+![image.png](images/image.png)
 
 - **MPU 내부에도 크리스탈이 있지만은 외부 크리스탈을 이용하여 클럭을 셋팅한다**
 - **HSE (High Speed External) 이용한다**
 - **HSE를 설정하면 우측의 화면 같이 PORT 가 자동으로 설정된다**
 
-![Untitled](01_LED/Untitled%201.png)
+![Untitled](images/Untitled%201.png)
 
 - **Debug 및 프로그램 전송을 위한 SYS를 설정한다**
 
-![Untitled](01_LED/Untitled%202.png)
+![Untitled](images/Untitled%202.png)
 
 - **Debug Mode를 Serial Wire로 설정한다**
 - **설정되면 우측화면과 같이 PORT가 자동으로 선택된다**
 
-![Untitled](01_LED/Untitled%203.png)
+![Untitled](images/Untitled%203.png)
 
 - **아래 화면과 같이 MPU 그림에서 PC8번 포트를 선택하면 설정할 수 있는 Function이 나옴**
 - **Function은 언제든지 변경 가능함**
 - **우선 출력을 설정함 → GPIO_Output**
 
-![Untitled](01_LED/Untitled%204.png)
+![Untitled](images/Untitled%204.png)
 
 - **위에 그림에서 PORT를 Output으로 설정하면**
 - **하기의 그림과 같이GPIO에 대한 Configuration을 할수 있음**
 - **왼쪽 그림은 PC8 Port에 설정된 설명이고**
 - **오른쪽 그림은 각각에 대해 설정할 수 있는 것임**
 
-![Untitled](01_LED/Untitled%205.png)
+![Untitled](images/Untitled%205.png)
 
 - **GPIO output level**
     - **LOW, HIGH 가 있고 이것은 시작할 때 어떤것으로 시작할것인지 결정함**
@@ -93,23 +93,23 @@
 
 - **GPIO 설정이 완료되면 화면 상단의 톱니바퀴를 눌러 Code 를 제네레이션 한다**
 
-![Untitled](01_LED/Untitled%206.png)
+![Untitled](images/Untitled%206.png)
 
 ---
 
 - **코드 제네레이션이 완료되면 하단과 같이 각각의 코드를 분리해서 생성한다**
 
-![Untitled](01_LED/Untitled%207.png)
+![Untitled](images/Untitled%207.png)
 
 ---
 
 - Intellisense 기능을 적극 활용한다
 
-![Untitled](01_LED/Untitled%208.png)
+![Untitled](images/Untitled%208.png)
 
 - **HAL 함수를 활용하여 100ms 시간마다 LED가 깜빡이게 만든다**
 
-![Untitled](01_LED/Untitled%209.png)
+![Untitled](images/Untitled%209.png)
 
 ==========================
 
